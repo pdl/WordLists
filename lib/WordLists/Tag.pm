@@ -11,7 +11,7 @@ sub new
 	
 	bless ($args, $class);
 }
-
+warn 'WordLists::Tag is a placeholder, use a specific tagger';
 1;
 
 =pod
@@ -26,10 +26,14 @@ WordLists::Tag
 
 =head1 DESCRIPTION	
 
-Doesn't do anything... yet.
+Doesn't do anything... yet. This is a placeholder. 
 
 =head1 BUGS
 
-Please send bugs to Daniel Perrett (L<dperrett@cambridge.org>).
+Please use the Github issues tracker.
+
+=head1 LICENSE
+
+Copyright 2011-2012 © Cambridge University Press. This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself.
 
 =cut

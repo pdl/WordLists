@@ -24,10 +24,10 @@ sub new
 		{
 			$self->parser($args->{'parser'});
 		}
-#		if (defined $args->{'from_file'})
-#		{
-#			$self->add_file($args->{'from_file'});
-#		}
+		if (defined $args->{'serialiser'})
+		{
+			$self->serialiser($args->{'serialiser'});
+		}
 		if (defined $args->{'name'})
 		{
 			$self->{'name'} = $args->{'name'};
@@ -294,11 +294,12 @@ This returns all senses; by default, it will return them in the order in which t
 
 =head1 TODO
 
-Allow changing the parser and serialiser within C<new>.
-
-
 =head1 BUGS
 
-Please send bugs to Daniel Perrett (L<dperrett@cambridge.org>).
+Please use the Github issues tracker.
+
+=head1 LICENSE
+
+Copyright 2011-2012 © Cambridge University Press. This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself.
 
 =cut

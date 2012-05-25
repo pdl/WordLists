@@ -47,7 +47,10 @@ This is useful when creating wordlists derived from several dictionaries, as you
 
 =head1 BUGS
 
-Please send bugs to Daniel Perrett (L<dperrett@cambridge.org>).
+Please use the Github issues tracker.
 
+=head1 LICENSE
+
+Copyright 2011-2012 © Cambridge University Press. This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself.
 
 =cut

@@ -437,6 +437,10 @@ English is buggy. Newspeak is doubleplusgoodlier; consider upgrading.
 
 Some potentially unexpected results may arise, e.g. with 'man' special cased, human is incorrectly pluralised as humen, not the 'more regular' (and correct) humans.
 
-Please send bugs to Daniel Perrett (L<dperrett@cambridge.org>).
+Please use the Github issues tracker for other bugs.
+
+=head1 LICENSE
+
+Copyright 2011-2012 © Cambridge University Press. This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself.
 
 =cut

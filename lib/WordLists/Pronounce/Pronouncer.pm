@@ -134,12 +134,10 @@ Try to guess stress for compounds based on a list of compounds and/or at least m
 
 =head1 BUGS
 
-Please send bugs to Daniel Perrett (L<dperrett@cambridge.org>).
+Please use the Github issues tracker.
+
+=head1 LICENSE
+
+Copyright 2011-2012 © Cambridge University Press. This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself.
 
 =cut
-
-# '<i> </i>' =>sub { return '('.$_[0].')'},
-# '<!-- -->' =>sub { return '' },
-# '[ ]' =>sub { return $_[0]},
-#
-#
