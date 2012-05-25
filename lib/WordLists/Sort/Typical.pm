@@ -1,14 +1,14 @@
 ﻿package WordLists::Sort::Typical;
+use utf8;
 use strict;
 use warnings;
 use Unicode::Normalize; #provides NFD
-use lib ('../..');
 use WordLists::Sort qw( atomic_compare complex_compare);
-use utf8;
+use WordLists::Base;
+our $VERSION = $WordLists::Base::VERSION;
 our $AUTOLOAD;
 require Exporter;
 our @ISA       = qw (Exporter);
-our $VERSION   = 0.01;
 our @EXPORT    = ();
 our @EXPORT_OK = qw(
 	cmp_alnum
@@ -202,7 +202,9 @@ WordLists::Sort::Typical
 
 =head1 SYNOPSIS
 
-	use WordLists::Sort::Typical
+	'A14' cmp 'A2'; # sadly returns -1, so instead do this:
+	use WordLists::Sort::Typical qw(cmp_alnum);
+	cmp_alnum('A14', 'A2'); # returns 1
 
 =head1 DESCRIPTION	
 

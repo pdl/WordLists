@@ -4,8 +4,14 @@ use utf8;
 our $VERSION   = 0.01;
 
 #TODO: Copy stuff over from WordLists::Common
-1;
+
+return 1;
+
 =pod
+
+=head1 NAME
+
+WordLists::Base - for working with lists of words
 
 =head1 BUGS
 
