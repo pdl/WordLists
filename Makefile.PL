@@ -10,8 +10,8 @@ WriteMakefile(
     ($ExtUtils::MakeMaker::VERSION >= 6.3002
       ? ('LICENSE'=> 'perl')
       : ()),
-    PL_FILES            => {},
-    PREREQ_PM => {
+    PL_FILES   => {},
+    PREREQ_PM  => {
         'JSON' => 0,
         'Test::More' => 0,
         'Lingua::EN::Tagger' => 0,
@@ -19,6 +19,7 @@ WriteMakefile(
         'Data::Dumper' => 0,
         'IO::File' => 0,
     },
-    dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
-    clean               => { FILES => 'WordLists-*' },
+    dist      => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
+    clean     => { FILES => 'WordLists-*' },
+	NO_MYMETA =>0
 );

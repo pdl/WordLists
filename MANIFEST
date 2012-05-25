@@ -1,6 +1,8 @@
 Changes
 MANIFEST
 Makefile.PL
+MYMETA.json
+MYMETA.yml
 README
 lib/WordLists/Base.pm
 lib/WordLists/Common.pm
