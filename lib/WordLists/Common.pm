@@ -3,10 +3,12 @@ use strict;
 use warnings;
 use Unicode::Normalize; #provides NFD
 use utf8;
+use WordLists::Base;
+our $VERSION = $WordLists::Base::VERSION;
+
 our $AUTOLOAD;
 require Exporter;
 our @ISA       = qw (Exporter);
-our $VERSION   = 0.01;
 our @EXPORT    = ();
 our @EXPORT_OK = qw(
 	pretty_doubles

@@ -1,6 +1,9 @@
 ﻿package WordLists::Pronounce::Pronouncer;
 use strict;
+use warnings;
 use utf8;
+use WordLists::Base;
+our $VERSION = $WordLists::Base::VERSION;
 
 sub new
 {

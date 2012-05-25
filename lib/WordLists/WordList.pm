@@ -2,12 +2,14 @@
 use strict;
 use warnings;
 use utf8;
-use Data::Dumper;
 use WordLists::Sense;
 use WordLists::Common qw (@sDefaultAttList @sDefiningAttlist @sParsingParameters);
+use WordLists::Base;
+our $VERSION = $WordLists::Base::VERSION;
 our $AUTOLOAD;
 our $DEFAULT_ENCODING = 'ascii';
 our $NO_SENSE_IDENTITY = 'ascii';
+
 
 sub new
 {

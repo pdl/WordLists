@@ -3,6 +3,9 @@ use strict;
 use warnings;
 use utf8;
 our $AUTOLOAD;
+use WordLists::Base;
+our $VERSION = $WordLists::Base::VERSION;
+
 =head1 NAME
 
 WordLists::Sense - Class for senses in wordlists, dictionaries, etc.

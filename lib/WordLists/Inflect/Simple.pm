@@ -1,6 +1,9 @@
 package WordLists::Inflect::Simple;
 use utf8;
 use strict;
+use warnings;
+use WordLists::Base;
+our $VERSION = $WordLists::Base::VERSION;
 
 our %sTypes = (
 	n=>

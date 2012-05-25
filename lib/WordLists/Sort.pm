@@ -3,7 +3,9 @@ use utf8;
 use strict;
 use warnings;
 require Exporter;
-our $VERSION = 0.01;
+use WordLists::Base;
+our $VERSION = $WordLists::Base::VERSION;
+
 our @ISA = qw(Exporter);
 our @EXPORT_OK = qw(
 	complex_compare

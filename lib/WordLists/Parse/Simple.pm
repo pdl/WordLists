@@ -1,8 +1,11 @@
 ﻿package WordLists::Parse::Simple;
 use strict;
+use warnings;
 use IO::File;
 use WordLists::Common qw (@sDefaultAttList @sDefiningAttlist);
-use Data::Dumper;
+use WordLists::Base;
+our $VERSION = $WordLists::Base::VERSION;
+
 my $canUseFileBOM=0;
 eval { require File::BOM; File::BOM->import(); };
 unless ($@)

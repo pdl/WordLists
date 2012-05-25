@@ -4,6 +4,9 @@ use warnings;
 use utf8;
 use WordLists::Sense;
 use base qw(WordLists::WordList);
+use WordLists::Base;
+our $VERSION = $WordLists::Base::VERSION;
+
 use Scalar::Util;
 our $AUTOLOAD;
 

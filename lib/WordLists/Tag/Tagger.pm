@@ -6,6 +6,9 @@ use WordLists::Common qw(/generic/);
 use Lingua::EN::Tagger;
 use WordLists::WordList;
 use WordLists::Sense;
+use WordLists::Base;
+our $VERSION = $WordLists::Base::VERSION;
+
 our $AUTOLOAD;
 our @ignore_pos_codes = qw(cd to prp prps sym pp pps ppr lrb rrb ppc ppl );
 sub norm_word($)

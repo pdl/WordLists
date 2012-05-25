@@ -3,6 +3,9 @@ use strict;
 use warnings;
 use utf8;
 use WordLists::Common qw(/generic/);
+use WordLists::Base;
+our $VERSION = $WordLists::Base::VERSION;
+
 our $AUTOLOAD;
 
 sub new

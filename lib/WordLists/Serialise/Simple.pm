@@ -1,7 +1,11 @@
 ﻿package WordLists::Serialise::Simple;
 use strict;
+use warnings;
 use IO::File;
 use WordLists::Common qw (@sDefaultAttList @sDefiningAttlist);
+use WordLists::Base;
+our $VERSION = $WordLists::Base::VERSION;
+
 sub new
 {
 	my ($class, $args) = @_;
