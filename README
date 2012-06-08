@@ -19,7 +19,7 @@ SUPPORT AND DOCUMENTATION
 After installing, you can find documentation for this module with the
 perldoc command.
 
-    perldoc WordLists::Base
+    perldoc WordLists::WordList
 
 You can also look for information at:
 
