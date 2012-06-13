@@ -27,7 +27,6 @@ t/test-dict.idx
 t/test-prons.idx
 t/WordLists-Common.t
 t/WordLists-Inflect-Simple.t
-t/WordLists-Inflect-Simple_Regular.t
 t/WordLists-Parse-Simple.t
 t/WordLists-Pronounce-Pronouncer.t
 t/WordLists-Sense.t

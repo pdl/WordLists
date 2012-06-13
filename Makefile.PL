@@ -6,7 +6,7 @@ WriteMakefile(
     NAME                => 'WordLists',
     AUTHOR              => q{Daniel Perrett <dperrett@cambridge.org>},
     VERSION_FROM        => 'lib/WordLists/Base.pm',
-    ABSTRACT_FROM       => 'lib/WordLists/Base.pm',
+    ABSTRACT            => 'WordLists - tools for working with lists of words',
     ($ExtUtils::MakeMaker::VERSION >= 6.3002
       ? ('LICENSE'=> 'perl')
       : ()),

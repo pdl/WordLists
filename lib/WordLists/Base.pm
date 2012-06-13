@@ -1,7 +1,7 @@
 ﻿package WordLists::Base;
 use strict;
 use utf8;
-our $VERSION   = 0.01;
+our $VERSION   = '0.010';
 
 #TODO: Copy stuff over from WordLists::Common
 
@@ -19,6 +19,8 @@ Please use the Github issues tracker.
 
 =head1 LICENSE
 
-Copyright 2011-2012 © Cambridge University Press. This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself.
+Copyright 2011-2012 © Cambridge University Press.
+
+This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself.
 
 =cut
